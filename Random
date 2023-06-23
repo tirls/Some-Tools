@@ -1,0 +1,11 @@
+import random
+
+participants = ["Alice", "Bob", "Charlie", "David", "Eve"]
+
+def lottery(participants):
+    winner = random.choice(participants)
+    return winner
+
+# 示例使用：
+print("参与抽奖的人员：", participants)
+print("抽奖结果：", lottery(participants))
